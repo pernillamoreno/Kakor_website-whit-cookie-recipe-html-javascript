@@ -1,0 +1,128 @@
+body {
+	background-image: url(smordeg_2.jpg);
+
+}
+
+.main {
+	width: 100%;
+
+}
+
+.content {
+	width: 100%;
+}
+
+.kakor1 {
+
+	padding: 10% 25% 10% 25%;
+
+}
+
+
+
+
+.cockie-display {
+	height: 2em;
+
+	background-color: #948b84dd;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+}
+
+p {
+	padding-top: 20px;
+	padding-left: 960px;
+	font-weight: 200;
+	font-size: 18px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: o;
+	padding: o;
+	overflow: hidden;
+	background-color: beige;
+
+}
+
+nav li {
+	float: left;
+}
+
+nav li {
+	display: block;
+	color: #f7eeee;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: #f7eeee;
+}
+
+nav li a:hover {
+	background-color: #f7eeee;
+
+}
+
+.typing-status {
+	visibility: hidden;
+}
+
+.typing-status--typing {
+	visibility: visible;
+}
+
+.footer-display {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	width: 60%;
+	margin: 10px auto 0px;
+	padding: 10px 0px;
+	color: rgb(80, 75, 56);
+	background-color: beige;
+
+}
+
+.message-history {
+	color: rgb(80, 75, 56);
+	margin: 10px auto 0px;
+	padding: 10px 0px;
+	font-size: 20px;
+	background-color: beige;
+
+}
+
+.footer-display {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	width: 60%;
+	margin: 10px auto 0px;
+	padding: 10px 0px;
+	color: rgb(80, 75, 56);
+	background-color: beige;
+
+}
+
+.ingredients-section {
+
+	margin: 10px auto 0px;
+	padding: 10px 0px;
+	font-size: 20px;
+	font-size: 15px;
+
+
+}
+
+.choosing-portions {
+
+	margin: 10px auto 0px;
+	padding: 10px 0px;
+	font-size: 20px;
+}
