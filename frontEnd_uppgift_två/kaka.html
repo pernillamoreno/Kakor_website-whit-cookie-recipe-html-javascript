@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Making site responsive-->
+    <title>Do you accept coockies?</title>
+    <script src="cockie.js" defer></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'
+        integrity='sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=='
+        crossorigin='anonymous' />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="flex-container">
+
+        <header class="cockie-display">
+            <h1>SYLTKAKOR</h1>
+        </header>
+        <div class="card">
+
+            <nav>
+                <ul>
+                    <li class=""><a href="https://www.arla.se/recept/mordegskakor/">Se orginal recept</a></li>
+                    <li class=""><a href="/Front End/frontEnd_uppgift_två/index.html">HEM</a></li>
+                    <input class="message-field" type="text" placeholder="Skriv recension..." />
+                    <div>
+
+                        <button class="send-btn">Tryck på mig</button>
+                        <p class="typing-status">Du skriver...</p>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="main">
+            <ul class="message-history"></ul>
+            </ul>
+            <div class="content">
+
+                <p>Gör så här:</p>
+                <p>Arbeta ihop ingredienserna till degen i en matberedare eller på arbetsbänk.</p>
+                <p>Platta ut degen, lägg den i en plastpåse och låt vila i kyl minst 30 min.</p>
+                <p>Sätt ugnen på 175° och baka ut degen till:</p>
+
+                <p>SYLTKAKOR: Rulla små bollar av degen och lägg på plåtar med bakplåtspapper.</p>
+                <p>Gör en grop i varje kaka och lägg en tesked sylt i gropen.</p>
+                <p>Grädda i mitten av ugnen ca 10 min.</p>
+
+                <div class="choosing-portions">
+                    <label for="portions">Kakor:</label>
+                    <select class="portions" id="portions">
+                        <option value="">--Välj antal--</option>
+                        <option value="50">50 kakor</option>
+                        <option value="100">100 kakor</option>
+                        <option value="200">200 kakor</option>
+
+                    </select>
+                </div>
+
+                <div class="ingredients-section">
+                    <h2 class="ingredients-headline">Ingredienser</h2>
+                    <ul class="ingredients-list">
+
+                        <li>Smör: <span class="butter-amount">200 grams</span></li>
+                        <li>Vanilj:<span class="vanilla-amount">5 grams</span></li>
+                        <li>Socker: <span class="sugar-amount">1 dl</span></li>
+                        <li>Mjöl: <span class="flour-amount">400 grams</span></li>
+                        <li>Sylt: <span class="jam-amount">2 dl</span></li>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</head>
+
+</html>

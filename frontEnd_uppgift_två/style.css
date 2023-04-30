@@ -1,0 +1,113 @@
+.flex-container {
+
+	display: block;
+	background-image: url(smordeg_2.jpg);
+
+}
+
+.main {
+	width: 100%;
+
+}
+
+.content > p {
+	color: rgb(149, 149, 41);
+	padding: 0% 0% 0% 5%;
+	margin-bottom: 2%;
+	width: 50%;
+	font-weight: 200px;
+	font-size: 18px;
+}
+
+.kakor1 {
+
+	padding: 10% 25% 10% 25%;
+
+}
+
+.cockie-display {
+	height: 2em;
+	background-color: #948b84dd;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+}
+
+
+
+nav ul {
+	list-style-type: none;
+	margin: o;
+	padding: o;
+	overflow: hidden;
+	background-color: beige;
+
+}
+
+nav li {
+	float: left;
+}
+
+nav li {
+	display: block;
+	color: #f7eeee;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: #f7eeee;
+}
+
+nav li a:hover {
+	background-color: #f7eeee;
+
+}
+
+.message-history {
+	color: rgb(80, 75, 56);
+	margin: 10px auto 0px;
+	padding: 10px 0px;
+	font-size: 20px;
+	background-color: beige;
+
+}
+
+.typing-status {
+	visibility: hidden;
+}
+
+.typing-status--typing {
+	visibility: visible;
+}
+
+.choosing-portions {
+
+	padding: 0% 0% 10% 10%;
+	
+	width: 50%;
+	font-size: 20px;
+}
+
+.ingredients-section {
+
+	padding: 0% 0% 3% 10%;
+	width: 50%;
+	font-size: 25px;
+	
+
+
+}
+
+.footer-display {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	width: 60%;
+	margin: 10px auto 0px;
+	padding: 10px 0px;
+	color: rgb(80, 75, 56);
+	background-color: beige;
+
+}
