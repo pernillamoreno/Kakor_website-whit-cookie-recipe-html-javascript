@@ -51,23 +51,23 @@ const jamAmount = document.querySelector('.jam-amount');
 function calculateIngredients() {
   const portions = portionsSelect.value;
   if (portions === '50') {
-    butterAmount.textContent = '200 grams';
-    vanillaAmount.textContent = '5 grams';
+    butterAmount.textContent = '200 gram';
+    vanillaAmount.textContent = '5 gram';
     sugarAmount.textContent = '1 dl';
-    flourAmount.textContent = '400 grams';
+    flourAmount.textContent = '400 gram';
     jamAmount.textContent = '2 dl';
   } else if (portions === '100') {
-    butterAmount.textContent = '400 grams';
-    vanillaAmount.textContent = '10 grams';
+    butterAmount.textContent = '400 gram';
+    vanillaAmount.textContent = '10 gram';
     sugarAmount.textContent = '2 dl';
-    flourAmount.textContent = '800 grams';
+    flourAmount.textContent = '800 gram';
     jamAmount.textContent = '4 dl';
 
   } else if (portions === '200') {
-    butterAmount.textContent = '800 grams';
-    vanillaAmount.textContent = '20 grams';
+    butterAmount.textContent = '800 gram';
+    vanillaAmount.textContent = '20 gram';
     sugarAmount.textContent = '4 dl';
-    flourAmount.textContent = '1600 grams';
+    flourAmount.textContent = '1600 gram';
     jamAmount.textContent = '8 dl';
 
   }
